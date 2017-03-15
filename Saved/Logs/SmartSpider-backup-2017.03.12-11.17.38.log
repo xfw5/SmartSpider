@@ -1,0 +1,1075 @@
+﻿Log file open, 03/11/17 10:47:34
+LogInit:Display: Running engine for game: SmartSpider
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1590713593) SRandInit(-1590713593).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.071658
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3299760
+LogInit: Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Feb 14 2017 02:04:14
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.11-02.47.34:775][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.11-02.47.34:775][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.11-02.47.34:780][  0]LogInit: Computer: XFW
+[2017.03.11-02.47.34:780][  0]LogInit: User: xfw
+[2017.03.11-02.47.34:780][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.11-02.47.34:780][  0]LogInit: High frequency timer resolution =3.914058 MHz
+[2017.03.11-02.47.34:780][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.03.11-02.47.34:780][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.11-02.47.34:780][  0]LogMemory: Process Physical Memory: 263.68 MB used, 263.68 MB peak
+[2017.03.11-02.47.34:780][  0]LogMemory: Process Virtual Memory: 262.70 MB used, 262.70 MB peak
+[2017.03.11-02.47.34:780][  0]LogMemory: Physical Memory: 6422.12 MB used,  26276.59 MB free, 32698.71 MB total
+[2017.03.11-02.47.34:780][  0]LogMemory: Virtual Memory: 644.39 MB used,  26276.59 MB free, 134217728.00 MB total
+[2017.03.11-02.47.34:840][  0]LogTextLocalizationManager: No specific translations for ('en-AS') exist, so ('en') translations will be used.
+[2017.03.11-02.47.35:263][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.11-02.47.35:288][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2017.03.11-02.47.35:288][  0]LogD3D11RHI:       8144/0/16349 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.03.11-02.47.35:289][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.11-02.47.35:289][  0]LogD3D11RHI:       0/0/16349 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.11-02.47.35:289][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.11-02.47.35:292][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.11-02.47.35:292][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.11-02.47.35:292][  0]LogWindows: EnumDisplayDevices:
+[2017.03.11-02.47.35:292][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2017.03.11-02.47.35:292][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.03.11-02.47.35:292][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.03.11-02.47.35:292][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.03.11-02.47.35:292][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.03.11-02.47.35:292][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2017.03.11-02.47.35:292][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
+[2017.03.11-02.47.35:292][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2017.03.11-02.47.35:292][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.11-02.47.35:303][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.11-02.47.35:312][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.03.11-02.47.35:360][  0]LogShaderCompilers: Guid format shader working directory is 18 characters bigger than the processId version (F:/UE4/Project/SmartSpider/Intermediate/Shaders/WorkingDirectory/7816/).
+[2017.03.11-02.47.35:360][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/xfw/AppData/Local/Temp/UnrealShaderWorkingDir/91352A124C29C4E294AC39A44BDC3074/'.
+[2017.03.11-02.47.35:360][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.11-02.47.36:098][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.11-02.47.36:136][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.03.11-02.47.36:174][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.03.11-02.47.36:212][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.03.11-02.47.36:250][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.03.11-02.47.36:289][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.11-02.47.36:329][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.11-02.47.36:367][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.11-02.47.36:397][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.11-02.47.36:434][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.11-02.47.36:470][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.11-02.47.36:506][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.11-02.47.36:544][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.11-02.47.36:581][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.11-02.47.36:617][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.11-02.47.36:690][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.11-02.47.36:690][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.11-02.47.36:716][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.11-02.47.36:791][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.11-02.47.36:839][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.11-02.47.36:884][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.03.11-02.47.36:921][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.11-02.47.36:958][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.11-02.47.36:994][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.11-02.47.36:994][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.11-02.47.37:306][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.11-02.47.37:345][  0]LogDerivedDataCache: Loaded boot cache 0.04s 50MB C:/Users/xfw/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.11-02.47.37:345][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/xfw/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.03.11-02.47.37:345][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/UE4/Project/SmartSpider/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.11-02.47.37:345][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.11-02.47.37:345][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/UE4/Project/SmartSpider/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.11-02.47.37:345][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.11-02.47.37:359][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.11-02.47.37:370][  0]LogDerivedDataCache: Using Local data cache path C:/Users/xfw/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.11-02.47.37:376][  0]LogSlate: Using Freetype 2.6.0
+[2017.03.11-02.47.37:376][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.11-02.47.37:376][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.11-02.47.37:547][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.11-02.47.37:549][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.11-02.47.37:715][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.03.11-02.47.37:744][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.03.11-02.47.37:776][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.03.11-02.47.37:776][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.03.11-02.47.37:776][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.11-02.47.38:139][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: smartspider, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 460708255
+[2017.03.11-02.47.38:178][  0]LogAssetRegistry: FAssetRegistry took 0.0217 seconds to start up
+[2017.03.11-02.47.38:204][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.009569 seconds
+[2017.03.11-02.47.38:207][  0]LogUObjectArray: 32475 objects as part of root set at end of initial load.
+[2017.03.11-02.47.38:207][  0]LogUObjectAllocator: 7073360 out of 0 bytes used by permanent object pool.
+[2017.03.11-02.47.38:207][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.11-02.47.38:252][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.11-02.47.39:335][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.11-02.47.39:366][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.11-02.47.39:754][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.11-02.47.40:007][  0]SourceControl: Info Source control is disabled
+[2017.03.11-02.47.40:024][  0]SourceControl: Info Source control is disabled
+[2017.03.11-02.47.40:055][  0]SourceControl: Info Source control is disabled
+[2017.03.11-02.47.40:086][  0]SourceControl: Info Source control is disabled
+[2017.03.11-02.47.41:051][  0]LogEngine: Initializing Engine...
+[2017.03.11-02.47.41:052][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.03.11-02.47.41:208][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.03.11-02.47.41:214][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.11-02.47.41:234][  0]LogInit: FAudioDevice initialized.
+[2017.03.11-02.47.41:251][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/xfw/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.11-02.47.41:255][  0]LogInit: Texture streaming: Enabled
+[2017.03.11-02.47.41:323][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.03.11-02.47.41:380][  0]LogInit: Transaction tracking system initialized
+[2017.03.11-02.47.41:609][  0]BlueprintLog: New page: Editor Load
+[2017.03.11-02.47.42:194][  0]LocalizationService: Info Localization service is disabled
+[2017.03.11-02.47.42:639][  0]LogConsoleResponse:Display: 
+[2017.03.11-02.47.42:728][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.03.11-02.47.42:728][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.11-02.47.43:040][  0]LogFileCache: Scanning file cache for directory 'F:/UE4/Project/SmartSpider/Content/' took 0.01s
+[2017.03.11-02.47.43:419][  0]SourceControl: Info Source control is disabled
+[2017.03.11-02.47.43:419][  0]Cmd: MAP LOAD FILE="F:/UE4/Project/SmartSpider/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.11-02.47.43:419][  0]LightingResults: New page: Lighting Build
+[2017.03.11-02.47.43:446][  0]MapCheck: New page: Map Check
+[2017.03.11-02.47.43:446][  0]LightingResults: New page: Lighting Build
+[2017.03.11-02.47.43:718][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.03.11-02.47.43:723][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.11-02.47.43:724][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.11-02.47.43:747][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 23.327ms to complete.
+[2017.03.11-02.47.43:747][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.328
+[2017.03.11-02.47.43:859][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (搜狗拼音输入法).
+[2017.03.11-02.47.43:970][  0]LogCollectionManager: Loaded 0 collections in 0.001590 seconds
+[2017.03.11-02.47.44:065][  0]LogFileCache: Scanning file cache for directory 'F:/UE4/Project/SmartSpider/Saved/Collections/' took 0.01s
+[2017.03.11-02.47.44:065][  0]LogFileCache: Scanning file cache for directory 'F:/UE4/Project/SmartSpider/Content/Developers/xfw/Collections/' took 0.01s
+[2017.03.11-02.47.44:065][  0]LogFileCache: Scanning file cache for directory 'F:/UE4/Project/SmartSpider/Content/Collections/' took 0.01s
+[2017.03.11-02.47.44:065][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.03.11-02.47.44:071][  0]LogContentBrowser: Native class hierarchy populated in 0.0065 seconds. Added 2244 classes and 450 folders.
+[2017.03.11-02.47.44:074][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.11-02.47.44:074][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.03.11-02.47.44:117][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.03.11-02.47.44:139][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.03.11-02.47.44:169][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.03.11-02.47.44:204][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.11-02.47.44:210][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.11-02.47.44:276][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.03.11-02.47.44:276][  0]LogLoad: (Engine Initialization) Total time: 10.91 seconds
+[2017.03.11-02.47.44:276][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.10 seconds
+[2017.03.11-02.47.44:276][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.03.11-02.47.44:276][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.03.11-02.47.44:286][  0]LogOcInput: OculusInput pre-init called
+[2017.03.11-02.47.44:298][  0]LogAssetRegistry: Asset discovery search completed in 6.1413 seconds
+[2017.03.11-02.47.44:298][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2017.03.11-02.47.44:298][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000016 seconds (updated 0 objects)
+[2017.03.11-02.47.44:301][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.03.11-02.47.44:308][  0]LogSlate: Took 0.000129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.03.11-02.47.44:311][  0]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.03.11-02.47.44:315][  0]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.03.11-02.47.44:460][  0]LogRenderer: Reallocating scene render targets to support 1468x808 NumSamples 1 (Frame:2).
+[2017.03.11-02.48.21:687][418]LogSlate: Took 0.000079 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.11-02.48.32:358][386]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 112 classes and 0 folders.
+[2017.03.11-02.48.32:793][386]LogSlate: Took 0.000127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.03.11-02.48.34:417][538]LogRenderer: Reallocating scene render targets to support 1528x1260 NumSamples 1 (Frame:4736).
+[2017.03.11-02.48.34:820][585]LogSlate: Took 0.000117 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.03.11-02.48.38:017][955]LogSlate: Took 0.000106 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.11-02.48.40:747][278]LogLinker:Warning: Can't find file '/Game/SmartSpider/Materials/SpiderMat'
+[2017.03.11-02.48.40:747][278]LogLinker:Warning: Can't find file for asset '/Game/SmartSpider/Materials/SpiderMat' while loading F:/UE4/Project/SmartSpider/Content/SmartSpider/Spider/Meshes/Mecha_Droid_idle.uasset.
+[2017.03.11-02.48.40:747][278]LoadErrors:Error: Error /Game/SmartSpider/Spider/Meshes/Mecha_Droid_idle : Can't find file for asset. /Game/SmartSpider/Materials/SpiderMat
+[2017.03.11-02.48.40:747][278]LogLinker:Warning: Can't find file '/Game/SmartSpider/Materials/SpiderMat'
+[2017.03.11-02.48.40:747][278]LogLinker:Warning: Can't find file for asset '/Game/SmartSpider/Materials/SpiderMat' while loading F:/UE4/Project/SmartSpider/Content/SmartSpider/Spider/Meshes/Mecha_Droid_idle.uasset.
+[2017.03.11-02.48.40:749][278]LogLinker:Warning: Can't find file '/Game/SmartSpider/Materials/SpiderMat'
+[2017.03.11-02.48.40:749][278]LoadErrors: Info Failed to load /Game/SmartSpider/Materials/SpiderMat.SpiderMat Referenced by Mecha_Droid_idle
+[2017.03.11-02.48.40:749][278]LogLinker:Warning: Can't find file for asset '/Game/SmartSpider/Materials/SpiderMat' while loading NULL.
+[2017.03.11-02.48.50:539][408]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SmartSpider/Spider/Meshes/Mecha_Droid" FILE="F:/UE4/Project/SmartSpider/Content/SmartSpider/Spider/Meshes/Mecha_Droid.uasset" SILENT=true
+[2017.03.11-02.48.50:548][408]LogSavePackage: Save=8.86ms
+[2017.03.11-02.48.50:548][408]LogSavePackage: Moving 'F:/UE4/Project/SmartSpider/Saved/Mecha_DroidCBAE2DA24ABA3124DE197AB29CCB0F1D.tmp' to 'F:/UE4/Project/SmartSpider/Content/SmartSpider/Spider/Meshes/Mecha_Droid.uasset'
+[2017.03.11-02.48.50:549][408]LogSavePackage:Display: Finished SavePackage F:/UE4/Project/SmartSpider/Content/SmartSpider/Spider/Meshes/Mecha_Droid.uasset
+[2017.03.11-02.48.50:667][408]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SmartSpider/Spider/Materials/SpiderMat" FILE="F:/UE4/Project/SmartSpider/Content/SmartSpider/Spider/Materials/SpiderMat.uasset" SILENT=true
+[2017.03.11-02.48.50:677][408]LogSavePackage: Save=9.28ms
+[2017.03.11-02.48.50:677][408]LogSavePackage: Moving 'F:/UE4/Project/SmartSpider/Saved/SpiderMat4767CEF74939A5517C1597AA76CA58EA.tmp' to 'F:/UE4/Project/SmartSpider/Content/SmartSpider/Spider/Materials/SpiderMat.uasset'
+[2017.03.11-02.48.50:678][408]LogSavePackage:Display: Finished SavePackage F:/UE4/Project/SmartSpider/Content/SmartSpider/Spider/Materials/SpiderMat.uasset
+[2017.03.11-02.48.50:685][408]LogSavePackage: Save=2.72ms
+[2017.03.11-02.48.50:685][408]LogSavePackage: Moving 'F:/UE4/Project/SmartSpider/Saved/Mecha_Droid_idle_PhysicsAssetCF6C48814F2FDEAB66DCE3970D9418A0.tmp' to 'F:/UE4/Project/SmartSpider/Content/SmartSpider/Spider/Meshes/Mecha_Droid_idle_PhysicsAsset.uasset'
+[2017.03.11-02.48.50:685][408]LogSavePackage:Display: Finished SavePackage F:/UE4/Project/SmartSpider/Content/SmartSpider/Spider/Meshes/Mecha_Droid_idle_PhysicsAsset.uasset
+[2017.03.11-02.48.50:689][408]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SmartSpider/Spider/Meshes/Mecha_Droid_Skeleton" FILE="F:/UE4/Project/SmartSpider/Content/SmartSpider/Spider/Meshes/Mecha_Droid_Skeleton.uasset" SILENT=true
+[2017.03.11-02.48.50:690][408]LogSavePackage: Save=0.78ms
+[2017.03.11-02.48.50:690][408]LogSavePackage: Moving 'F:/UE4/Project/SmartSpider/Saved/Mecha_Droid_SkeletonD05500954AB67B97D705049C8F81A575.tmp' to 'F:/UE4/Project/SmartSpider/Content/SmartSpider/Spider/Meshes/Mecha_Droid_Skeleton.uasset'
+[2017.03.11-02.48.50:691][408]LogSavePackage:Display: Finished SavePackage F:/UE4/Project/SmartSpider/Content/SmartSpider/Spider/Meshes/Mecha_Droid_Skeleton.uasset
+[2017.03.11-02.48.53:727][650]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SmartSpider/BP/SmartSpider_BP" FILE="F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpider_BP.uasset" SILENT=true
+[2017.03.11-02.48.53:742][650]LogSavePackage: Save=15.17ms
+[2017.03.11-02.48.53:742][650]LogSavePackage: Moving 'F:/UE4/Project/SmartSpider/Saved/SmartSpider_BP770960C94DC9BD5F655992B6BA049441.tmp' to 'F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpider_BP.uasset'
+[2017.03.11-02.48.53:743][650]LogSavePackage:Display: Finished SavePackage F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpider_BP.uasset
+[2017.03.11-02.49.52:823][696]BlueprintLog: New page: Compile SmartSpider_BP
+[2017.03.11-02.49.53:408][740]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SmartSpider/BP/SmartSpider_BP" FILE="F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpider_BP.uasset" SILENT=true
+[2017.03.11-02.49.53:424][740]LogSavePackage: Save=15.12ms
+[2017.03.11-02.49.53:424][740]LogSavePackage: Moving 'F:/UE4/Project/SmartSpider/Saved/SmartSpider_BP45AFA73641DF53057D9569A8C3DD32F0.tmp' to 'F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpider_BP.uasset'
+[2017.03.11-02.49.53:424][740]LogSavePackage:Display: Finished SavePackage F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpider_BP.uasset
+[2017.03.11-02.49.57:758][248]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.03.11-02.50.03:276][906]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.11-02.50.03:284][906]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.11-02.50.03:284][906]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.11-02.50.03:284][906]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 11, 2017, 6:50:03 PM)
+[2017.03.11-02.50.03:285][906]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.03.11-02.50.03:300][906]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015464s)
+[2017.03.11-02.50.03:301][906]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.03.11-02.50.03:301][906]LogPlayLevel: PIE: World Init took: (0.000801s)
+[2017.03.11-02.50.03:301][906]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.016714s)
+[2017.03.11-02.50.03:317][906]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.11-02.50.03:334][906]LogInit: FAudioDevice initialized.
+[2017.03.11-02.50.03:384][906]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.11-02.50.03:389][906]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.03.11-10.50.03
+[2017.03.11-02.50.03:390][906]LogWorld: Bringing up level for play took: 0.004506
+[2017.03.11-02.50.03:450][906]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2017.03.11-02.50.03:451][906]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.375
+[2017.03.11-02.50.03:451][906]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.11-02.50.08:072][444]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Mecha_Droid)
+[2017.03.11-02.50.08:891][529]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.03.11-02.50.12:444][852]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.11-02.50.12:500][852]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.11-02.50.30:559][  2]BlueprintLog: New page: Compile SmartSpider_BP
+[2017.03.11-02.50.31:246][ 48]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SmartSpider/BP/SmartSpider_BP" FILE="F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpider_BP.uasset" SILENT=true
+[2017.03.11-02.50.31:261][ 48]LogSavePackage: Save=14.95ms
+[2017.03.11-02.50.31:261][ 48]LogSavePackage: Moving 'F:/UE4/Project/SmartSpider/Saved/SmartSpider_BP80D76CC846A8ECF2D4FE9FA403506AC2.tmp' to 'F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpider_BP.uasset'
+[2017.03.11-02.50.31:262][ 48]LogSavePackage:Display: Finished SavePackage F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpider_BP.uasset
+[2017.03.11-02.50.33:421][306]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Mecha_Droid)
+[2017.03.11-02.50.35:857][594]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.11-02.50.35:863][594]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.11-02.50.35:863][594]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.11-02.50.35:863][594]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 11, 2017, 6:50:35 PM)
+[2017.03.11-02.50.35:864][594]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.03.11-02.50.35:878][594]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014737s)
+[2017.03.11-02.50.35:879][594]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.03.11-02.50.35:879][594]LogPlayLevel: PIE: World Init took: (0.000672s)
+[2017.03.11-02.50.35:879][594]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.015609s)
+[2017.03.11-02.50.35:896][594]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.11-02.50.35:913][594]LogInit: FAudioDevice initialized.
+[2017.03.11-02.50.35:947][594]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.11-02.50.35:949][594]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.03.11-10.50.35
+[2017.03.11-02.50.35:949][594]LogWorld: Bringing up level for play took: 0.001574
+[2017.03.11-02.50.35:950][594]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.874
+[2017.03.11-02.50.35:950][594]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.11-02.50.41:474][240]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Mecha_Droid)
+[2017.03.11-02.50.49:708][211]PIE:Warning: Warning Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2017.03.11-02.50.51:805][454]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.03.11-02.51.00:997][363]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.11-02.51.01:051][363]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.11-02.51.07:712][146]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Mecha_Droid)
+[2017.03.11-02.51.08:279][213]Cmd: DELETE
+[2017.03.11-02.51.08:279][213]Cmd: ACTOR DELETE
+[2017.03.11-02.51.08:279][213]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2017.03.11-02.51.08:290][213]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.03.11-02.51.24:607][151]BlueprintLog: New page: Compile SmartSpider_BP
+[2017.03.11-02.51.25:254][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SmartSpider/BP/SmartSpider_BP" FILE="F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpider_BP.uasset" SILENT=true
+[2017.03.11-02.51.25:269][200]LogSavePackage: Save=14.82ms
+[2017.03.11-02.51.25:269][200]LogSavePackage: Moving 'F:/UE4/Project/SmartSpider/Saved/SmartSpider_BPE82F371441123AD8FAA481B8F1AE04C6.tmp' to 'F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpider_BP.uasset'
+[2017.03.11-02.51.25:270][200]LogSavePackage:Display: Finished SavePackage F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpider_BP.uasset
+[2017.03.11-02.51.27:473][456]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.03.11-02.51.27:572][456]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.03.11-02.51.27:594][456]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_5:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.03.11-02.51.33:475][132]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SmartSpider/Spider/Meshes/Mecha_Droid" FILE="F:/UE4/Project/SmartSpider/Content/SmartSpider/Spider/Meshes/Mecha_Droid.uasset" SILENT=true
+[2017.03.11-02.51.33:485][132]LogSavePackage: Save=9.03ms
+[2017.03.11-02.51.33:485][132]LogSavePackage: Moving 'F:/UE4/Project/SmartSpider/Saved/Mecha_DroidB31897314D08BFEEC1B9C782573866C5.tmp' to 'F:/UE4/Project/SmartSpider/Content/SmartSpider/Spider/Meshes/Mecha_Droid.uasset'
+[2017.03.11-02.51.33:485][132]LogSavePackage:Display: Finished SavePackage F:/UE4/Project/SmartSpider/Content/SmartSpider/Spider/Meshes/Mecha_Droid.uasset
+[2017.03.11-02.51.51:496][260]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.11-02.51.51:503][260]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.11-02.51.51:503][260]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.11-02.51.51:504][260]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 11, 2017, 6:51:51 PM)
+[2017.03.11-02.51.51:504][260]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.03.11-02.51.51:519][260]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014913s)
+[2017.03.11-02.51.51:519][260]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.03.11-02.51.51:519][260]LogPlayLevel: PIE: World Init took: (0.000779s)
+[2017.03.11-02.51.51:519][260]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.015897s)
+[2017.03.11-02.51.51:538][260]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.11-02.51.51:556][260]LogInit: FAudioDevice initialized.
+[2017.03.11-02.51.51:582][260]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.11-02.51.51:584][260]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.03.11-10.51.51
+[2017.03.11-02.51.51:584][260]LogWorld: Bringing up level for play took: 0.001536
+[2017.03.11-02.51.51:584][260]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.508
+[2017.03.11-02.51.51:585][260]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.11-02.52.05:199][857]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.11-02.52.05:250][857]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.11-02.52.08:566][242]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Mecha_Droid)
+[2017.03.11-02.52.09:441][346]Cmd: DELETE
+[2017.03.11-02.52.09:441][346]Cmd: ACTOR DELETE
+[2017.03.11-02.52.09:442][346]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2017.03.11-02.52.09:453][346]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2017.03.11-02.52.15:448][ 51]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.11-02.52.15:455][ 51]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.11-02.52.15:455][ 51]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.11-02.52.15:455][ 51]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 11, 2017, 6:52:15 PM)
+[2017.03.11-02.52.15:455][ 51]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.03.11-02.52.15:466][ 51]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011366s)
+[2017.03.11-02.52.15:467][ 51]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.03.11-02.52.15:467][ 51]LogPlayLevel: PIE: World Init took: (0.000709s)
+[2017.03.11-02.52.15:467][ 51]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.012344s)
+[2017.03.11-02.52.15:483][ 51]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.11-02.52.15:500][ 51]LogInit: FAudioDevice initialized.
+[2017.03.11-02.52.15:531][ 51]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.11-02.52.15:533][ 51]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.03.11-10.52.15
+[2017.03.11-02.52.15:534][ 51]LogWorld: Bringing up level for play took: 0.001861
+[2017.03.11-02.52.15:534][ 51]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.459
+[2017.03.11-02.52.15:535][ 51]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.11-02.52.19:538][521]LogEditorViewport: Clicking on Actor (LMB): SmartSpider_BP_C (SmartSpider_BP)
+[2017.03.11-02.52.28:804][321]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.11-02.52.28:878][321]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.11-02.53.26:674][203]BlueprintLog: New page: Compile SmartSpider_BP
+[2017.03.11-02.53.27:191][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SmartSpider/BP/SmartSpider_BP" FILE="F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpider_BP.uasset" SILENT=true
+[2017.03.11-02.53.27:207][217]LogSavePackage: Save=15.14ms
+[2017.03.11-02.53.27:207][217]LogSavePackage: Moving 'F:/UE4/Project/SmartSpider/Saved/SmartSpider_BP9876FC694691EFD1066B47AFB91BEAA1.tmp' to 'F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpider_BP.uasset'
+[2017.03.11-02.53.27:207][217]LogSavePackage:Display: Finished SavePackage F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpider_BP.uasset
+[2017.03.11-02.53.29:546][494]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.11-02.53.29:552][494]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.11-02.53.29:552][494]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.11-02.53.29:552][494]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 11, 2017, 6:53:29 PM)
+[2017.03.11-02.53.29:552][494]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.03.11-02.53.29:568][494]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015464s)
+[2017.03.11-02.53.29:568][494]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.03.11-02.53.29:569][494]LogPlayLevel: PIE: World Init took: (0.000652s)
+[2017.03.11-02.53.29:569][494]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.016343s)
+[2017.03.11-02.53.29:585][494]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.11-02.53.29:602][494]LogInit: FAudioDevice initialized.
+[2017.03.11-02.53.29:629][494]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.11-02.53.29:632][494]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.03.11-10.53.29
+[2017.03.11-02.53.29:632][494]LogWorld: Bringing up level for play took: 0.001818
+[2017.03.11-02.53.29:633][494]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.557
+[2017.03.11-02.53.29:633][494]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.11-02.54.11:438][342]LogMetaData: Removing '/Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP:AnimGraph.AnimGraphNode_Root_0' ref from Metadata '/Game/SmartSpider/BP/SmartSpider_Anim.PackageMetaData'
+[2017.03.11-02.54.11:438][342]LogMetaData: Removing '/Game/SmartSpider/BP/SmartSpiderAnim_BP.SKEL_SmartSpiderAnim_BP_C' ref from Metadata '/Game/SmartSpider/BP/SmartSpider_Anim.PackageMetaData'
+[2017.03.11-02.54.11:438][342]LogMetaData: Removing '/Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C' ref from Metadata '/Game/SmartSpider/BP/SmartSpider_Anim.PackageMetaData'
+[2017.03.11-02.54.11:438][342]LogMetaData: Removing '/Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/SmartSpider/BP/SmartSpider_Anim.PackageMetaData'
+[2017.03.11-02.54.11:454][342]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SmartSpider/BP/SmartSpiderAnim_BP" FILE="F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpiderAnim_BP.uasset" SILENT=true
+[2017.03.11-02.54.11:463][342]LogSavePackage: Save=8.63ms
+[2017.03.11-02.54.11:463][342]LogSavePackage: Moving 'F:/UE4/Project/SmartSpider/Saved/SmartSpiderAnim_BPA48CD0A049923DD97C90CBAD896D760A.tmp' to 'F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpiderAnim_BP.uasset'
+[2017.03.11-02.54.11:463][342]LogSavePackage:Display: Finished SavePackage F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpiderAnim_BP.uasset
+[2017.03.11-02.54.11:485][342]LogGarbage:Warning: GC detected illegal reference to PIE object from content [possibly via ObjectProperty /Script/UnrealEd.EditorEngine:PlayWorld]:
+[2017.03.11-02.54.11:485][342]LogGarbage:Warning:       PIE object: World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap
+[2017.03.11-02.54.11:485][342]LogGarbage:Warning:   NON-PIE object: UnrealEdEngine /Engine/Transient.UnrealEdEngine_0
+[2017.03.11-02.54.12:065][402]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2017.03.11-02.54.12:228][402]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_9:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) - call TermArticulated first.
+[2017.03.11-02.54.12:284][402]LogSlate: Took 0.000129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.03.11-02.54.34:945][108]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.11-02.54.35:038][108]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.11-02.54.49:697][856]LogSlate: Took 0.001168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.03.11-02.54.53:673][331]BlueprintLog: New page: Compile SmartSpiderAnim_BP
+[2017.03.11-02.54.53:741][331]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2017.03.11-02.54.54:326][397]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SmartSpider/BP/SmartSpiderAnim_BP" FILE="F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpiderAnim_BP.uasset" SILENT=true
+[2017.03.11-02.54.54:335][397]LogSavePackage: Save=8.59ms
+[2017.03.11-02.54.54:335][397]LogSavePackage: Moving 'F:/UE4/Project/SmartSpider/Saved/SmartSpiderAnim_BP426912CB42195A980B3950B8A7457DDC.tmp' to 'F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpiderAnim_BP.uasset'
+[2017.03.11-02.54.54:336][397]LogSavePackage:Display: Finished SavePackage F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpiderAnim_BP.uasset
+[2017.03.11-02.55.10:465][327]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.Actor_2.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2017.03.11-02.55.10:483][327]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_11:PersistentLevel.Actor_2.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2017.03.11-02.59.51:329][697]BlueprintLog: New page: Compile SmartSpiderAnim_BP
+[2017.03.11-02.59.51:415][697]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2017.03.11-02.59.51:959][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SmartSpider/BP/SmartSpiderAnim_BP" FILE="F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpiderAnim_BP.uasset" SILENT=true
+[2017.03.11-02.59.51:978][758]LogSavePackage: Save=18.95ms
+[2017.03.11-02.59.51:978][758]LogSavePackage: Moving 'F:/UE4/Project/SmartSpider/Saved/SmartSpiderAnim_BPE898385B415258FA805FEF803AFAB315.tmp' to 'F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpiderAnim_BP.uasset'
+[2017.03.11-02.59.51:979][758]LogSavePackage:Display: Finished SavePackage F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpiderAnim_BP.uasset
+[2017.03.11-03.02.19:556][356]BlueprintLog: New page: Compile SmartSpiderAnim_BP
+[2017.03.11-03.02.19:647][356]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2017.03.11-03.02.19:647][356]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2017.03.11-03.02.19:647][356]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2017.03.11-03.02.20:093][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SmartSpider/BP/SmartSpiderAnim_BP" FILE="F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpiderAnim_BP.uasset" SILENT=true
+[2017.03.11-03.02.20:116][406]LogSavePackage: Save=21.94ms
+[2017.03.11-03.02.20:116][406]LogSavePackage: Moving 'F:/UE4/Project/SmartSpider/Saved/SmartSpiderAnim_BP7E11647D45F947C370552BBBA0F3D391.tmp' to 'F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpiderAnim_BP.uasset'
+[2017.03.11-03.02.20:117][406]LogSavePackage:Display: Finished SavePackage F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpiderAnim_BP.uasset
+[2017.03.11-03.04.43:597][536]BlueprintLog: New page: Compile SmartSpiderAnim_BP
+[2017.03.11-03.04.44:171][589]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SmartSpider/BP/SmartSpiderAnim_BP" FILE="F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpiderAnim_BP.uasset" SILENT=true
+[2017.03.11-03.04.44:196][589]LogSavePackage: Save=24.91ms
+[2017.03.11-03.04.44:196][589]LogSavePackage: Moving 'F:/UE4/Project/SmartSpider/Saved/SmartSpiderAnim_BP425584FA4B80A07B73844B80660BA2EF.tmp' to 'F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpiderAnim_BP.uasset'
+[2017.03.11-03.04.44:197][589]LogSavePackage:Display: Finished SavePackage F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpiderAnim_BP.uasset
+[2017.03.11-03.05.09:753][636]BlueprintLog: New page: Compile SmartSpiderAnim_BP
+[2017.03.11-03.05.10:610][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SmartSpider/BP/SmartSpiderAnim_BP" FILE="F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpiderAnim_BP.uasset" SILENT=true
+[2017.03.11-03.05.10:636][723]LogSavePackage: Save=24.73ms
+[2017.03.11-03.05.10:636][723]LogSavePackage: Moving 'F:/UE4/Project/SmartSpider/Saved/SmartSpiderAnim_BP13EBEF7547DA2CE5EAE21788F1C65057.tmp' to 'F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpiderAnim_BP.uasset'
+[2017.03.11-03.05.10:636][723]LogSavePackage:Display: Finished SavePackage F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpiderAnim_BP.uasset
+[2017.03.11-03.05.33:425][436]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.03.11-03.05.41:059][346]BlueprintLog: New page: Compile SmartSpider_BP
+[2017.03.11-03.05.41:526][346]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SmartSpider/BP/SmartSpider_BP" FILE="F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpider_BP.uasset" SILENT=true
+[2017.03.11-03.05.41:542][346]LogSavePackage: Save=15.12ms
+[2017.03.11-03.05.41:542][346]LogSavePackage: Moving 'F:/UE4/Project/SmartSpider/Saved/SmartSpider_BPB086DC15430D06CC8F7D689DB62E35B6.tmp' to 'F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpider_BP.uasset'
+[2017.03.11-03.05.41:542][346]LogSavePackage:Display: Finished SavePackage F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpider_BP.uasset
+[2017.03.11-03.05.44:269][662]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.11-03.05.44:275][662]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.11-03.05.44:275][662]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.11-03.05.44:275][662]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 11, 2017, 7:05:44 PM)
+[2017.03.11-03.05.44:275][662]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.03.11-03.05.44:291][662]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016056s)
+[2017.03.11-03.05.44:291][662]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.03.11-03.05.44:292][662]LogPlayLevel: PIE: World Init took: (0.000539s)
+[2017.03.11-03.05.44:292][662]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.016782s)
+[2017.03.11-03.05.44:311][662]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.11-03.05.44:330][662]LogInit: FAudioDevice initialized.
+[2017.03.11-03.05.44:361][662]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.11-03.05.44:363][662]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.03.11-11.05.44
+[2017.03.11-03.05.44:364][662]LogWorld: Bringing up level for play took: 0.001909
+[2017.03.11-03.05.44:364][662]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.711
+[2017.03.11-03.05.44:365][662]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.11-03.05.44:365][662]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:EvaluateGraphExposedInputs_ExecuteUbergraph_SmartSpiderAnim_BP_AnimGraphNode_SequencePlayer_8475C04446A70D7283F88589565A267C
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:ExecuteUbergraph_SmartSpiderAnim_BP
+
+[2017.03.11-03.05.44:365][662]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:EvaluateGraphExposedInputs_ExecuteUbergraph_SmartSpiderAnim_BP_AnimGraphNode_SequencePlayer_8475C04446A70D7283F88589565A267C
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:ExecuteUbergraph_SmartSpiderAnim_BP
+
+[2017.03.11-03.05.44:433][664]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:EvaluateGraphExposedInputs_ExecuteUbergraph_SmartSpiderAnim_BP_AnimGraphNode_SequencePlayer_8475C04446A70D7283F88589565A267C
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:ExecuteUbergraph_SmartSpiderAnim_BP
+
+[2017.03.11-03.05.44:440][665]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:EvaluateGraphExposedInputs_ExecuteUbergraph_SmartSpiderAnim_BP_AnimGraphNode_SequencePlayer_8475C04446A70D7283F88589565A267C
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:ExecuteUbergraph_SmartSpiderAnim_BP
+
+[2017.03.11-03.05.44:449][666]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:EvaluateGraphExposedInputs_ExecuteUbergraph_SmartSpiderAnim_BP_AnimGraphNode_SequencePlayer_8475C04446A70D7283F88589565A267C
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:ExecuteUbergraph_SmartSpiderAnim_BP
+
+[2017.03.11-03.05.44:457][667]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:EvaluateGraphExposedInputs_ExecuteUbergraph_SmartSpiderAnim_BP_AnimGraphNode_SequencePlayer_8475C04446A70D7283F88589565A267C
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:ExecuteUbergraph_SmartSpiderAnim_BP
+
+[2017.03.11-03.05.44:465][668]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:EvaluateGraphExposedInputs_ExecuteUbergraph_SmartSpiderAnim_BP_AnimGraphNode_SequencePlayer_8475C04446A70D7283F88589565A267C
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:ExecuteUbergraph_SmartSpiderAnim_BP
+
+[2017.03.11-03.05.44:474][669]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:EvaluateGraphExposedInputs_ExecuteUbergraph_SmartSpiderAnim_BP_AnimGraphNode_SequencePlayer_8475C04446A70D7283F88589565A267C
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:ExecuteUbergraph_SmartSpiderAnim_BP
+
+[2017.03.11-03.05.44:482][670]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:EvaluateGraphExposedInputs_ExecuteUbergraph_SmartSpiderAnim_BP_AnimGraphNode_SequencePlayer_8475C04446A70D7283F88589565A267C
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:ExecuteUbergraph_SmartSpiderAnim_BP
+
+[2017.03.11-03.05.44:490][671]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:EvaluateGraphExposedInputs_ExecuteUbergraph_SmartSpiderAnim_BP_AnimGraphNode_SequencePlayer_8475C04446A70D7283F88589565A267C
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:ExecuteUbergraph_SmartSpiderAnim_BP
+
+[2017.03.11-03.05.44:500][672]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:EvaluateGraphExposedInputs_ExecuteUbergraph_SmartSpiderAnim_BP_AnimGraphNode_SequencePlayer_8475C04446A70D7283F88589565A267C
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:ExecuteUbergraph_SmartSpiderAnim_BP
+
+[2017.03.11-03.05.44:507][673]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:EvaluateGraphExposedInputs_ExecuteUbergraph_SmartSpiderAnim_BP_AnimGraphNode_SequencePlayer_8475C04446A70D7283F88589565A267C
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:ExecuteUbergraph_SmartSpiderAnim_BP
+
+[2017.03.11-03.05.44:516][674]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:EvaluateGraphExposedInputs_ExecuteUbergraph_SmartSpiderAnim_BP_AnimGraphNode_SequencePlayer_8475C04446A70D7283F88589565A267C
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:ExecuteUbergraph_SmartSpiderAnim_BP
+
+[2017.03.11-03.05.44:524][675]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:EvaluateGraphExposedInputs_ExecuteUbergraph_SmartSpiderAnim_BP_AnimGraphNode_SequencePlayer_8475C04446A70D7283F88589565A267C
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:ExecuteUbergraph_SmartSpiderAnim_BP
+
+[2017.03.11-03.05.44:532][676]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:EvaluateGraphExposedInputs_ExecuteUbergraph_SmartSpiderAnim_BP_AnimGraphNode_SequencePlayer_8475C04446A70D7283F88589565A267C
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:ExecuteUbergraph_SmartSpiderAnim_BP
+
+[2017.03.11-03.05.44:540][677]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:EvaluateGraphExposedInputs_ExecuteUbergraph_SmartSpiderAnim_BP_AnimGraphNode_SequencePlayer_8475C04446A70D7283F88589565A267C
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:ExecuteUbergraph_SmartSpiderAnim_BP
+
+[2017.03.11-03.05.44:548][678]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:EvaluateGraphExposedInputs_ExecuteUbergraph_SmartSpiderAnim_BP_AnimGraphNode_SequencePlayer_8475C04446A70D7283F88589565A267C
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:ExecuteUbergraph_SmartSpiderAnim_BP
+
+[2017.03.11-03.05.44:557][679]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:EvaluateGraphExposedInputs_ExecuteUbergraph_SmartSpiderAnim_BP_AnimGraphNode_SequencePlayer_8475C04446A70D7283F88589565A267C
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:ExecuteUbergraph_SmartSpiderAnim_BP
+
+[2017.03.11-03.05.44:565][680]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:EvaluateGraphExposedInputs_ExecuteUbergraph_SmartSpiderAnim_BP_AnimGraphNode_SequencePlayer_8475C04446A70D7283F88589565A267C
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:ExecuteUbergraph_SmartSpiderAnim_BP
+
+[2017.03.11-03.05.44:573][681]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:EvaluateGraphExposedInputs_ExecuteUbergraph_SmartSpiderAnim_BP_AnimGraphNode_SequencePlayer_8475C04446A70D7283F88589565A267C
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:ExecuteUbergraph_SmartSpiderAnim_BP
+
+[2017.03.11-03.05.44:582][682]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:EvaluateGraphExposedInputs_ExecuteUbergraph_SmartSpiderAnim_BP_AnimGraphNode_SequencePlayer_8475C04446A70D7283F88589565A267C
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:ExecuteUbergraph_SmartSpiderAnim_BP
+
+[2017.03.11-03.05.44:590][683]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:EvaluateGraphExposedInputs_ExecuteUbergraph_SmartSpiderAnim_BP_AnimGraphNode_SequencePlayer_8475C04446A70D7283F88589565A267C
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:ExecuteUbergraph_SmartSpiderAnim_BP
+
+[2017.03.11-03.05.44:598][684]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:EvaluateGraphExposedInputs_ExecuteUbergraph_SmartSpiderAnim_BP_AnimGraphNode_SequencePlayer_8475C04446A70D7283F88589565A267C
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:ExecuteUbergraph_SmartSpiderAnim_BP
+
+[2017.03.11-03.05.44:607][685]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:EvaluateGraphExposedInputs_ExecuteUbergraph_SmartSpiderAnim_BP_AnimGraphNode_SequencePlayer_8475C04446A70D7283F88589565A267C
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:ExecuteUbergraph_SmartSpiderAnim_BP
+
+[2017.03.11-03.05.44:615][686]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:EvaluateGraphExposedInputs_ExecuteUbergraph_SmartSpiderAnim_BP_AnimGraphNode_SequencePlayer_8475C04446A70D7283F88589565A267C
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:ExecuteUbergraph_SmartSpiderAnim_BP
+
+[2017.03.11-03.05.44:624][687]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:EvaluateGraphExposedInputs_ExecuteUbergraph_SmartSpiderAnim_BP_AnimGraphNode_SequencePlayer_8475C04446A70D7283F88589565A267C
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:ExecuteUbergraph_SmartSpiderAnim_BP
+
+[2017.03.11-03.05.44:632][688]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:EvaluateGraphExposedInputs_ExecuteUbergraph_SmartSpiderAnim_BP_AnimGraphNode_SequencePlayer_8475C04446A70D7283F88589565A267C
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:ExecuteUbergraph_SmartSpiderAnim_BP
+
+[2017.03.11-03.05.44:640][689]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:EvaluateGraphExposedInputs_ExecuteUbergraph_SmartSpiderAnim_BP_AnimGraphNode_SequencePlayer_8475C04446A70D7283F88589565A267C
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:ExecuteUbergraph_SmartSpiderAnim_BP
+
+[2017.03.11-03.05.44:649][690]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:EvaluateGraphExposedInputs_ExecuteUbergraph_SmartSpiderAnim_BP_AnimGraphNode_SequencePlayer_8475C04446A70D7283F88589565A267C
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:ExecuteUbergraph_SmartSpiderAnim_BP
+
+[2017.03.11-03.05.44:657][691]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:EvaluateGraphExposedInputs_ExecuteUbergraph_SmartSpiderAnim_BP_AnimGraphNode_SequencePlayer_8475C04446A70D7283F88589565A267C
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:ExecuteUbergraph_SmartSpiderAnim_BP
+
+[2017.03.11-03.05.44:665][692]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:EvaluateGraphExposedInputs_ExecuteUbergraph_SmartSpiderAnim_BP_AnimGraphNode_SequencePlayer_8475C04446A70D7283F88589565A267C
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:ExecuteUbergraph_SmartSpiderAnim_BP
+
+[2017.03.11-03.05.44:673][693]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:EvaluateGraphExposedInputs_ExecuteUbergraph_SmartSpiderAnim_BP_AnimGraphNode_SequencePlayer_8475C04446A70D7283F88589565A267C
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:ExecuteUbergraph_SmartSpiderAnim_BP
+
+[2017.03.11-03.05.44:682][694]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:EvaluateGraphExposedInputs_ExecuteUbergraph_SmartSpiderAnim_BP_AnimGraphNode_SequencePlayer_8475C04446A70D7283F88589565A267C
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:ExecuteUbergraph_SmartSpiderAnim_BP
+
+[2017.03.11-03.05.44:690][695]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:EvaluateGraphExposedInputs_ExecuteUbergraph_SmartSpiderAnim_BP_AnimGraphNode_SequencePlayer_8475C04446A70D7283F88589565A267C
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:ExecuteUbergraph_SmartSpiderAnim_BP
+
+[2017.03.11-03.05.44:698][696]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:EvaluateGraphExposedInputs_ExecuteUbergraph_SmartSpiderAnim_BP_AnimGraphNode_SequencePlayer_8475C04446A70D7283F88589565A267C
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:ExecuteUbergraph_SmartSpiderAnim_BP
+
+[2017.03.11-03.05.44:706][697]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:EvaluateGraphExposedInputs_ExecuteUbergraph_SmartSpiderAnim_BP_AnimGraphNode_SequencePlayer_8475C04446A70D7283F88589565A267C
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:ExecuteUbergraph_SmartSpiderAnim_BP
+
+[2017.03.11-03.05.44:715][698]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:EvaluateGraphExposedInputs_ExecuteUbergraph_SmartSpiderAnim_BP_AnimGraphNode_SequencePlayer_8475C04446A70D7283F88589565A267C
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:ExecuteUbergraph_SmartSpiderAnim_BP
+
+[2017.03.11-03.05.44:723][699]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:EvaluateGraphExposedInputs_ExecuteUbergraph_SmartSpiderAnim_BP_AnimGraphNode_SequencePlayer_8475C04446A70D7283F88589565A267C
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:ExecuteUbergraph_SmartSpiderAnim_BP
+
+[2017.03.11-03.05.44:731][700]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:EvaluateGraphExposedInputs_ExecuteUbergraph_SmartSpiderAnim_BP_AnimGraphNode_SequencePlayer_8475C04446A70D7283F88589565A267C
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:ExecuteUbergraph_SmartSpiderAnim_BP
+
+[2017.03.11-03.05.44:740][701]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:EvaluateGraphExposedInputs_ExecuteUbergraph_SmartSpiderAnim_BP_AnimGraphNode_SequencePlayer_8475C04446A70D7283F88589565A267C
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:ExecuteUbergraph_SmartSpiderAnim_BP
+
+[2017.03.11-03.05.44:750][702]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:EvaluateGraphExposedInputs_ExecuteUbergraph_SmartSpiderAnim_BP_AnimGraphNode_SequencePlayer_8475C04446A70D7283F88589565A267C
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:ExecuteUbergraph_SmartSpiderAnim_BP
+
+[2017.03.11-03.05.44:757][703]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:EvaluateGraphExposedInputs_ExecuteUbergraph_SmartSpiderAnim_BP_AnimGraphNode_SequencePlayer_8475C04446A70D7283F88589565A267C
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:ExecuteUbergraph_SmartSpiderAnim_BP
+
+[2017.03.11-03.05.44:765][704]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:EvaluateGraphExposedInputs_ExecuteUbergraph_SmartSpiderAnim_BP_AnimGraphNode_SequencePlayer_8475C04446A70D7283F88589565A267C
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:ExecuteUbergraph_SmartSpiderAnim_BP
+
+[2017.03.11-03.05.44:774][705]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:EvaluateGraphExposedInputs_ExecuteUbergraph_SmartSpiderAnim_BP_AnimGraphNode_SequencePlayer_8475C04446A70D7283F88589565A267C
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:ExecuteUbergraph_SmartSpiderAnim_BP
+
+[2017.03.11-03.05.44:782][706]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:EvaluateGraphExposedInputs_ExecuteUbergraph_SmartSpiderAnim_BP_AnimGraphNode_SequencePlayer_8475C04446A70D7283F88589565A267C
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:ExecuteUbergraph_SmartSpiderAnim_BP
+
+[2017.03.11-03.05.44:790][707]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:EvaluateGraphExposedInputs_ExecuteUbergraph_SmartSpiderAnim_BP_AnimGraphNode_SequencePlayer_8475C04446A70D7283F88589565A267C
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:ExecuteUbergraph_SmartSpiderAnim_BP
+
+[2017.03.11-03.05.44:798][708]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:EvaluateGraphExposedInputs_ExecuteUbergraph_SmartSpiderAnim_BP_AnimGraphNode_SequencePlayer_8475C04446A70D7283F88589565A267C
+	Function /Game/SmartSpider/BP/SmartSpiderAnim_BP.SmartSpiderAnim_BP_C:ExecuteUbergraph_SmartSpiderAnim_BP
+
+[2017.03.11-03.05.55:650][  9]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.11-03.05.55:725][  9]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.11-03.06.22:584][205]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.Actor_3.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.03.11-03.06.22:600][205]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_14:PersistentLevel.Actor_3.DebugSkelMeshComponent_5) - call TermArticulated first.
+[2017.03.11-03.06.28:350][873]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.Actor_4.DebugSkelMeshComponent_6) Already registered. Aborting.
+[2017.03.11-03.06.28:368][873]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_15:PersistentLevel.Actor_4.DebugSkelMeshComponent_6) - call TermArticulated first.
+[2017.03.11-03.07.30:109][256]BlueprintLog: New page: Compile SmartSpiderAnim_BP
+[2017.03.11-03.07.30:979][341]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SmartSpider/BP/SmartSpiderAnim_BP" FILE="F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpiderAnim_BP.uasset" SILENT=true
+[2017.03.11-03.07.31:005][341]LogSavePackage: Save=25.00ms
+[2017.03.11-03.07.31:005][341]LogSavePackage: Moving 'F:/UE4/Project/SmartSpider/Saved/SmartSpiderAnim_BP18E0473748E369239F6B88A886F35838.tmp' to 'F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpiderAnim_BP.uasset'
+[2017.03.11-03.07.31:005][341]LogSavePackage:Display: Finished SavePackage F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpiderAnim_BP.uasset
+[2017.03.11-03.11.01:589][449]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SmartSpider/Spider/Meshes/Mecha_Droid" FILE="F:/UE4/Project/SmartSpider/Content/SmartSpider/Spider/Meshes/Mecha_Droid.uasset" SILENT=true
+[2017.03.11-03.11.01:600][449]LogSavePackage: Save=9.46ms
+[2017.03.11-03.11.01:600][449]LogSavePackage: Moving 'F:/UE4/Project/SmartSpider/Saved/Mecha_Droid2A2EC49547E93CFEE0EFB4AB8B70B5F1.tmp' to 'F:/UE4/Project/SmartSpider/Content/SmartSpider/Spider/Meshes/Mecha_Droid.uasset'
+[2017.03.11-03.11.01:600][449]LogSavePackage:Display: Finished SavePackage F:/UE4/Project/SmartSpider/Content/SmartSpider/Spider/Meshes/Mecha_Droid.uasset
+[2017.03.11-03.11.33:437][104]LogSavePackage: Save=152.04ms
+[2017.03.11-03.11.33:437][104]LogSavePackage: Moving 'F:/UE4/Project/SmartSpider/Saved/ThirdPersonExampleMap_Auto1B83AF43946E57564AD54FBBE7311FC22.tmp' to 'F:/UE4/Project/SmartSpider/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2017.03.11-03.11.33:438][104]LogSavePackage:Display: Finished SavePackage F:/UE4/Project/SmartSpider/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap
+[2017.03.11-03.11.33:439][104]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.191
+[2017.03.11-03.11.33:439][104]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.191
+[2017.03.11-03.11.33:440][104]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SmartSpider/BP/SmartSpider_Anim" FILE="F:/UE4/Project/SmartSpider/Saved/Autosaves/Game/SmartSpider/BP/SmartSpider_Anim_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.03.11-03.11.33:441][104]LogSavePackage: Save=0.50ms
+[2017.03.11-03.11.33:441][104]LogSavePackage: Moving 'F:/UE4/Project/SmartSpider/Saved/SmartSpider_Anim_Auto1736F61654274AB7877500AAE6CDCD83C.tmp' to 'F:/UE4/Project/SmartSpider/Saved/Autosaves/Game/SmartSpider/BP/SmartSpider_Anim_Auto1.uasset'
+[2017.03.11-03.11.33:442][104]LogSavePackage:Display: Finished SavePackage F:/UE4/Project/SmartSpider/Saved/Autosaves/Game/SmartSpider/BP/SmartSpider_Anim_Auto1.uasset
+[2017.03.11-03.11.33:442][104]LogFileHelpers: Auto-saving content packages took 0.002
+[2017.03.11-03.12.54:344][697]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SmartSpider/Animations/Mecha_Droid_climb" FILE="F:/UE4/Project/SmartSpider/Content/SmartSpider/Animations/Mecha_Droid_climb.uasset" SILENT=true
+[2017.03.11-03.12.54:353][697]LogSavePackage: Save=7.27ms
+[2017.03.11-03.12.54:353][697]LogSavePackage: Moving 'F:/UE4/Project/SmartSpider/Saved/Mecha_Droid_climb8ABBDAC54280A3BAA0DB1AB42AA041B8.tmp' to 'F:/UE4/Project/SmartSpider/Content/SmartSpider/Animations/Mecha_Droid_climb.uasset'
+[2017.03.11-03.12.54:353][697]LogSavePackage:Display: Finished SavePackage F:/UE4/Project/SmartSpider/Content/SmartSpider/Animations/Mecha_Droid_climb.uasset
+[2017.03.11-03.13.12:732][851]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.Actor_5.DebugSkelMeshComponent_8) Already registered. Aborting.
+[2017.03.11-03.13.12:808][851]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_18:PersistentLevel.Actor_5.DebugSkelMeshComponent_8) - call TermArticulated first.
+[2017.03.11-03.13.14:743][ 67]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_20:PersistentLevel.Actor_6.DebugSkelMeshComponent_10) Already registered. Aborting.
+[2017.03.11-03.13.14:759][ 67]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_20:PersistentLevel.Actor_6.DebugSkelMeshComponent_10) - call TermArticulated first.
+[2017.03.11-03.21.34:196][ 20]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.046
+[2017.03.11-03.21.34:198][ 20]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SmartSpider/BP/SmartSpider_BP] ([1] browsable assets)...
+[2017.03.11-03.21.34:233][ 20]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SmartSpider/BP/SmartSpider_BP.SmartSpider_BP]
+[2017.03.11-03.21.34:233][ 20]OBJ SavePackage: Finished generating thumbnails for package [/Game/SmartSpider/BP/SmartSpider_BP]
+[2017.03.11-03.21.34:233][ 20]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SmartSpider/BP/SmartSpider_BP" FILE="F:/UE4/Project/SmartSpider/Saved/Autosaves/Game/SmartSpider/BP/SmartSpider_BP_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.03.11-03.21.34:271][ 20]LogSavePackage: Save=35.40ms
+[2017.03.11-03.21.34:271][ 20]LogSavePackage: Moving 'F:/UE4/Project/SmartSpider/Saved/SmartSpider_BP_Auto28A8ED81745F3D92EC5D4E5A9287173CD.tmp' to 'F:/UE4/Project/SmartSpider/Saved/Autosaves/Game/SmartSpider/BP/SmartSpider_BP_Auto2.uasset'
+[2017.03.11-03.21.34:271][ 20]LogSavePackage:Display: Finished SavePackage F:/UE4/Project/SmartSpider/Saved/Autosaves/Game/SmartSpider/BP/SmartSpider_BP_Auto2.uasset
+[2017.03.11-03.21.34:272][ 20]LogFileHelpers: Auto-saving content packages took 0.074
+[2017.03.11-03.28.46:012][357]BlueprintLog: New page: Compile SmartSpider_BP
+[2017.03.11-03.28.47:193][442]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SmartSpider/BP/SmartSpider_BP" FILE="F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpider_BP.uasset" SILENT=true
+[2017.03.11-03.28.47:210][442]LogSavePackage: Save=15.28ms
+[2017.03.11-03.28.47:210][442]LogSavePackage: Moving 'F:/UE4/Project/SmartSpider/Saved/SmartSpider_BP5187DDDE4D075D711756D085C2687DE2.tmp' to 'F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpider_BP.uasset'
+[2017.03.11-03.28.47:210][442]LogSavePackage:Display: Finished SavePackage F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpider_BP.uasset
+[2017.03.11-03.29.36:335][316]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.03.11-03.29.45:987][291]LogBlueprint:Warning: Reparenting blueprint Blueprint /Game/SmartSpider/BP/SmartSpider_BP.SmartSpider_BP from Character to Pawn...
+[2017.03.11-03.29.45:992][291]BlueprintLog: New page: Compile SmartSpider_BP
+[2017.03.11-03.30.16:474][891]BlueprintLog: New page: Compile SmartSpider_BP
+[2017.03.11-03.30.17:241][933]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SmartSpider/BP/SmartSpider_BP" FILE="F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpider_BP.uasset" SILENT=true
+[2017.03.11-03.30.17:246][933]LogSavePackage: Save=4.08ms
+[2017.03.11-03.30.17:246][933]LogSavePackage: Moving 'F:/UE4/Project/SmartSpider/Saved/SmartSpider_BP45EBF08144F94A95AB775095E95C02F7.tmp' to 'F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpider_BP.uasset'
+[2017.03.11-03.30.17:247][933]LogSavePackage:Display: Finished SavePackage F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpider_BP.uasset
+[2017.03.11-03.31.34:296][155]LogSavePackage: Save=89.99ms
+[2017.03.11-03.31.34:296][155]LogSavePackage: Moving 'F:/UE4/Project/SmartSpider/Saved/ThirdPersonExampleMap_Auto3B2F80B6048CF6145BB6F53B3568E13A2.tmp' to 'F:/UE4/Project/SmartSpider/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto3.umap'
+[2017.03.11-03.31.34:296][155]LogSavePackage:Display: Finished SavePackage F:/UE4/Project/SmartSpider/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto3.umap
+[2017.03.11-03.31.34:297][155]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.107
+[2017.03.11-03.31.34:297][155]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.107
+[2017.03.11-03.43.13:255][875]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.03.11-03.51.44:070][500]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.03.11-03.51.51:734][272]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SmartSpider/BP/SmartSpider_Anim" FILE="F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpider_Anim.uasset" SILENT=true
+[2017.03.11-03.51.51:735][272]LogSavePackage: Save=0.41ms
+[2017.03.11-03.51.51:735][272]LogSavePackage: Moving 'F:/UE4/Project/SmartSpider/Saved/SmartSpider_Anim5B4C846449D57B521016258038B67277.tmp' to 'F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpider_Anim.uasset'
+[2017.03.11-03.51.51:735][272]LogSavePackage:Display: Finished SavePackage F:/UE4/Project/SmartSpider/Content/SmartSpider/BP/SmartSpider_Anim.uasset
+[2017.03.11-03.51.51:891][272]LogSavePackage: Save=106.29ms
+[2017.03.11-03.51.51:891][272]LogSavePackage: Moving 'F:/UE4/Project/SmartSpider/Saved/ThirdPersonExampleMap82CB13674DC1BF2F12AEDFA172BFFFB5.tmp' to 'F:/UE4/Project/SmartSpider/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.03.11-03.51.51:893][272]LogSavePackage:Display: Finished SavePackage F:/UE4/Project/SmartSpider/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.03.11-03.51.51:902][272]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.163
+[2017.03.11-03.51.52:309][273]Cmd: QUIT_EDITOR
+[2017.03.11-03.51.52:793][273]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (搜狗拼音输入法).
+[2017.03.11-03.51.52:848][273]LogExit: Preparing to exit.
+[2017.03.11-03.51.53:804][273]LogExit: Editor shut down
+[2017.03.11-03.51.53:804][273]LogExit: Transaction tracking system shut down
+[2017.03.11-03.51.53:928][273]LogObj: Freed 0b from 0 cluster array pools.
+[2017.03.11-03.51.53:928][273]LogExit: Object subsystem successfully closed.
+[2017.03.11-03.51.53:951][273]LogD3D11RHI: Shutdown
+[2017.03.11-03.51.53:951][273]LogD3D11RHI: CleanupD3DDevice
+[2017.03.11-03.51.54:064][273]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.03.11-03.51.54:073][273]LogModuleManager: Shutting down and abandoning module AnimationEditor (510)
+[2017.03.11-03.51.54:073][273]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (508)
+[2017.03.11-03.51.54:073][273]LogModuleManager: Shutting down and abandoning module SkeletonEditor (506)
+[2017.03.11-03.51.54:073][273]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (504)
+[2017.03.11-03.51.54:073][273]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (502)
+[2017.03.11-03.51.54:073][273]LogModuleManager: Shutting down and abandoning module BlueprintGraph (500)
+[2017.03.11-03.51.54:073][273]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (498)
+[2017.03.11-03.51.54:074][273]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (496)
+[2017.03.11-03.51.54:074][273]LogModuleManager: Shutting down and abandoning module CrashTracker (494)
+[2017.03.11-03.51.54:074][273]LogModuleManager: Shutting down and abandoning module SceneOutliner (492)
+[2017.03.11-03.51.54:074][273]LogModuleManager: Shutting down and abandoning module AddContentDialog (490)
+[2017.03.11-03.51.54:074][273]LogDirectoryWatcher: A directory notification for 'C:/Program Files (x86)/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.03.11-03.51.54:076][273]LogModuleManager: Shutting down and abandoning module WidgetCarousel (489)
+[2017.03.11-03.51.54:076][273]LogModuleManager: Shutting down and abandoning module EditorWidgets (486)
+[2017.03.11-03.51.54:076][273]LogModuleManager: Shutting down and abandoning module CollectionManager (484)
+[2017.03.11-03.51.54:076][273]LogDirectoryWatcher: A directory notification for 'F:/UE4/Project/SmartSpider/Content/Collections/' was aborted.
+[2017.03.11-03.51.54:076][273]LogDirectoryWatcher: A directory notification for 'F:/UE4/Project/SmartSpider/Content/Developers/xfw/Collections/' was aborted.
+[2017.03.11-03.51.54:076][273]LogDirectoryWatcher: A directory notification for 'F:/UE4/Project/SmartSpider/Saved/Collections/' was aborted.
+[2017.03.11-03.51.54:076][273]LogModuleManager: Shutting down and abandoning module StatsViewer (482)
+[2017.03.11-03.51.54:076][273]LogModuleManager: Shutting down and abandoning module FoliageEdit (480)
+[2017.03.11-03.51.54:076][273]LogModuleManager: Shutting down and abandoning module LandscapeEditor (478)
+[2017.03.11-03.51.54:076][273]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (476)
+[2017.03.11-03.51.54:076][273]LogModuleManager: Shutting down and abandoning module ActorPickerMode (474)
+[2017.03.11-03.51.54:076][273]LogModuleManager: Shutting down and abandoning module GeometryMode (472)
+[2017.03.11-03.51.54:076][273]LogModuleManager: Shutting down and abandoning module TextureAlignMode (470)
+[2017.03.11-03.51.54:076][273]LogModuleManager: Shutting down and abandoning module BspMode (468)
+[2017.03.11-03.51.54:076][273]LogModuleManager: Shutting down and abandoning module HardwareSurvey (466)
+[2017.03.11-03.51.54:076][273]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (464)
+[2017.03.11-03.51.54:076][273]LogModuleManager: Shutting down and abandoning module AutomationWorker (462)
+[2017.03.11-03.51.54:076][273]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (460)
+[2017.03.11-03.51.54:076][273]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (458)
+[2017.03.11-03.51.54:076][273]LogModuleManager: Shutting down and abandoning module PlacementMode (457)
+[2017.03.11-03.51.54:076][273]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (454)
+[2017.03.11-03.51.54:076][273]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (452)
+[2017.03.11-03.51.54:076][273]LogModuleManager: Shutting down and abandoning module MfMediaFactory (450)
+[2017.03.11-03.51.54:076][273]LogModuleManager: Shutting down and abandoning module MfMediaEditor (448)
+[2017.03.11-03.51.54:076][273]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (446)
+[2017.03.11-03.51.54:076][273]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (444)
+[2017.03.11-03.51.54:076][273]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (442)
+[2017.03.11-03.51.54:076][273]LogModuleManager: Shutting down and abandoning module Media (441)
+[2017.03.11-03.51.54:076][273]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (438)
+[2017.03.11-03.51.54:076][273]LogModuleManager: Shutting down and abandoning module CharacterAI (436)
+[2017.03.11-03.51.54:076][273]LogModuleManager: Shutting down and abandoning module AudioCapture (434)
+[2017.03.11-03.51.54:076][273]LogModuleManager: Shutting down and abandoning module SequenceRecorder (433)
+[2017.03.11-03.51.54:076][273]LogModuleManager: Shutting down and abandoning module SmartSnapping (430)
+[2017.03.11-03.51.54:076][273]LogModuleManager: Shutting down and abandoning module SessionServices (428)
+[2017.03.11-03.51.54:076][273]LogModuleManager: Shutting down and abandoning module ViewportSnapping (426)
+[2017.03.11-03.51.54:076][273]LogModuleManager: Shutting down and abandoning module ViewportInteraction (424)
+[2017.03.11-03.51.54:076][273]LogModuleManager: Shutting down and abandoning module LogVisualizer (422)
+[2017.03.11-03.51.54:076][273]LogModuleManager: Shutting down and abandoning module IntroTutorials (420)
+[2017.03.11-03.51.54:076][273]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (419)
+[2017.03.11-03.51.54:076][273]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (416)
+[2017.03.11-03.51.54:076][273]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (414)
+[2017.03.11-03.51.54:076][273]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (412)
+[2017.03.11-03.51.54:076][273]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (410)
+[2017.03.11-03.51.54:076][273]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (409)
+[2017.03.11-03.51.54:720][273]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (406)
+[2017.03.11-03.51.54:720][273]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (404)
+[2017.03.11-03.51.54:720][273]LogModuleManager: Shutting down and abandoning module InputBindingEditor (402)
+[2017.03.11-03.51.54:720][273]LogModuleManager: Shutting down and abandoning module NiagaraEditor (400)
+[2017.03.11-03.51.54:720][273]LogModuleManager: Shutting down and abandoning module MergeActors (398)
+[2017.03.11-03.51.54:720][273]LogModuleManager: Shutting down and abandoning module SizeMap (396)
+[2017.03.11-03.51.54:720][273]LogModuleManager: Shutting down and abandoning module TreeMap (394)
+[2017.03.11-03.51.54:720][273]LogModuleManager: Shutting down and abandoning module ReferenceViewer (392)
+[2017.03.11-03.51.54:720][273]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (390)
+[2017.03.11-03.51.54:720][273]LogModuleManager: Shutting down and abandoning module LocalizationService (389)
+[2017.03.11-03.51.54:720][273]LogModuleManager: Shutting down and abandoning module HardwareTargeting (386)
+[2017.03.11-03.51.54:720][273]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (384)
+[2017.03.11-03.51.54:720][273]LogModuleManager: Shutting down and abandoning module UndoHistory (382)
+[2017.03.11-03.51.54:720][273]LogModuleManager: Shutting down and abandoning module UserFeedback (380)
+[2017.03.11-03.51.54:720][273]LogModuleManager: Shutting down and abandoning module XmlParser (378)
+[2017.03.11-03.51.54:720][273]LogModuleManager: Shutting down and abandoning module Blutility (376)
+[2017.03.11-03.51.54:721][273]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (374)
+[2017.03.11-03.51.54:721][273]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (373)
+[2017.03.11-03.51.54:721][273]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (370)
+[2017.03.11-03.51.54:721][273]LogModuleManager: Shutting down and abandoning module SettingsEditor (368)
+[2017.03.11-03.51.54:721][273]LogModuleManager: Shutting down and abandoning module ProjectLauncher (366)
+[2017.03.11-03.51.54:721][273]LogModuleManager: Shutting down and abandoning module SessionFrontend (364)
+[2017.03.11-03.51.54:721][273]LogModuleManager: Shutting down and abandoning module ProfilerClient (362)
+[2017.03.11-03.51.54:721][273]LogModuleManager: Shutting down and abandoning module DeviceManager (360)
+[2017.03.11-03.51.54:721][273]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (359)
+[2017.03.11-03.51.54:763][273]LogModuleManager: Shutting down and abandoning module AutomationController (356)
+[2017.03.11-03.51.54:763][273]LogModuleManager: Shutting down and abandoning module AutomationWindow (354)
+[2017.03.11-03.51.54:763][273]LogModuleManager: Shutting down and abandoning module Layers (352)
+[2017.03.11-03.51.54:763][273]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (350)
+[2017.03.11-03.51.54:763][273]LogModuleManager: Shutting down and abandoning module DetailCustomizations (348)
+[2017.03.11-03.51.54:764][273]LogModuleManager: Shutting down and abandoning module PackagesDialog (346)
+[2017.03.11-03.51.54:764][273]LogModuleManager: Shutting down and abandoning module Persona (344)
+[2017.03.11-03.51.54:764][273]LogModuleManager: Shutting down and abandoning module AnimGraph (343)
+[2017.03.11-03.51.54:764][273]LogModuleManager: Shutting down and abandoning module Kismet (340)
+[2017.03.11-03.51.54:784][273]LogModuleManager: Shutting down and abandoning module GraphEditor (338)
+[2017.03.11-03.51.54:784][273]LogModuleManager: Shutting down and abandoning module ClassViewer (336)
+[2017.03.11-03.51.54:788][273]LogModuleManager: Shutting down and abandoning module Toolbox (334)
+[2017.03.11-03.51.54:788][273]LogModuleManager: Shutting down and abandoning module ModuleUI (332)
+[2017.03.11-03.51.54:788][273]LogModuleManager: Shutting down and abandoning module MovieSceneTools (330)
+[2017.03.11-03.51.54:788][273]LogModuleManager: Shutting down and abandoning module OutputLog (328)
+[2017.03.11-03.51.54:788][273]LogModuleManager: Shutting down and abandoning module GammaUI (326)
+[2017.03.11-03.51.54:788][273]LogModuleManager: Shutting down and abandoning module Documentation (324)
+[2017.03.11-03.51.54:788][273]LogModuleManager: Shutting down and abandoning module Niagara (322)
+[2017.03.11-03.51.54:788][273]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (320)
+[2017.03.11-03.51.54:788][273]LogModuleManager: Shutting down and abandoning module AnalyticsET (318)
+[2017.03.11-03.51.54:788][273]LogModuleManager: Shutting down and abandoning module PortalServices (316)
+[2017.03.11-03.51.54:788][273]LogModuleManager: Shutting down and abandoning module PortalRpc (314)
+[2017.03.11-03.51.54:788][273]LogModuleManager: Shutting down and abandoning module MessagingRpc (312)
+[2017.03.11-03.51.54:788][273]LogModuleManager: Shutting down and abandoning module AIModule (310)
+[2017.03.11-03.51.54:788][273]LogModuleManager: Shutting down and abandoning module GameplayDebugger (309)
+[2017.03.11-03.51.54:788][273]LogModuleManager: Shutting down and abandoning module AITestSuite (307)
+[2017.03.11-03.51.54:788][273]LogModuleManager: Shutting down and abandoning module ProfilerService (304)
+[2017.03.11-03.51.55:014][273]LogModuleManager: Shutting down and abandoning module TaskGraph (302)
+[2017.03.11-03.51.55:014][273]LogModuleManager: Shutting down and abandoning module SteamVRController (300)
+[2017.03.11-03.51.55:014][273]LogModuleManager: Shutting down and abandoning module SteamVR (298)
+[2017.03.11-03.51.55:014][273]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (296)
+[2017.03.11-03.51.55:014][273]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (294)
+[2017.03.11-03.51.55:014][273]LogModuleManager: Shutting down and abandoning module OculusLibrary (292)
+[2017.03.11-03.51.55:014][273]LogModuleManager: Shutting down and abandoning module OculusInput (290)
+[2017.03.11-03.51.55:014][273]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (288)
+[2017.03.11-03.51.55:014][273]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (286)
+[2017.03.11-03.51.55:014][273]LogModuleManager: Shutting down and abandoning module CableComponent (284)
+[2017.03.11-03.51.55:014][273]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (282)
+[2017.03.11-03.51.55:014][273]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (278)
+[2017.03.11-03.51.55:014][273]LogModuleManager: Shutting down and abandoning module HTML5Networking (276)
+[2017.03.11-03.51.55:014][273]LogModuleManager: Shutting down and abandoning module AlembicImporter (274)
+[2017.03.11-03.51.55:014][273]LogModuleManager: Shutting down and abandoning module AlembicLibrary (273)
+[2017.03.11-03.51.55:014][273]LogModuleManager: Shutting down and abandoning module GeometryCache (272)
+[2017.03.11-03.51.55:015][273]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (271)
+[2017.03.11-03.51.55:015][273]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (266)
+[2017.03.11-03.51.55:015][273]LogModuleManager: Shutting down and abandoning module SuperSearch (265)
+[2017.03.11-03.51.55:015][273]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (262)
+[2017.03.11-03.51.55:015][273]LogModuleManager: Shutting down and abandoning module PluginBrowser (260)
+[2017.03.11-03.51.55:015][273]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (258)
+[2017.03.11-03.51.55:015][273]LogModuleManager: Shutting down and abandoning module EpicSurvey (256)
+[2017.03.11-03.51.55:015][273]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (254)
+[2017.03.11-03.51.55:015][273]LogModuleManager: Shutting down and abandoning module DesktopPlatform (253)
+[2017.03.11-03.51.55:015][273]LogModuleManager: Shutting down and abandoning module UObjectPlugin (250)
+[2017.03.11-03.51.55:015][273]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (248)
+[2017.03.11-03.51.55:015][273]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (246)
+[2017.03.11-03.51.55:015][273]LogModuleManager: Shutting down and abandoning module GitSourceControl (244)
+[2017.03.11-03.51.55:015][273]LogModuleManager: Shutting down and abandoning module SourceControl (243)
+[2017.03.11-03.51.55:015][273]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (240)
+[2017.03.11-03.51.55:015][273]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (238)
+[2017.03.11-03.51.55:015][273]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (236)
+[2017.03.11-03.51.55:015][273]LogModuleManager: Shutting down and abandoning module Paper2DEditor (234)
+[2017.03.11-03.51.55:015][273]LogModuleManager: Shutting down and abandoning module MeshPaint (233)
+[2017.03.11-03.51.55:016][273]LogModuleManager: Shutting down and abandoning module LevelEditor (231)
+[2017.03.11-03.51.55:017][273]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (230)
+[2017.03.11-03.51.55:017][273]LogModuleManager: Shutting down and abandoning module MainFrame (228)
+[2017.03.11-03.51.55:017][273]LogModuleManager: Shutting down and abandoning module HotReload (227)
+[2017.03.11-03.51.55:018][273]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.03.11-03.51.55:021][273]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (220)
+[2017.03.11-03.51.55:021][273]LogModuleManager: Shutting down and abandoning module PhysXVehicles (218)
+[2017.03.11-03.51.55:021][273]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (216)
+[2017.03.11-03.51.55:021][273]LogModuleManager: Shutting down and abandoning module UdpMessaging (214)
+[2017.03.11-03.51.55:122][273]LogModuleManager: Shutting down and abandoning module TcpMessaging (212)
+[2017.03.11-03.51.55:222][273]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (210)
+[2017.03.11-03.51.55:222][273]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (208)
+[2017.03.11-03.51.55:222][273]LogModuleManager: Shutting down and abandoning module FacialAnimation (206)
+[2017.03.11-03.51.55:222][273]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (204)
+[2017.03.11-03.51.55:222][273]LogModuleManager: Shutting down and abandoning module Paper2D (202)
+[2017.03.11-03.51.55:222][273]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (200)
+[2017.03.11-03.51.55:222][273]LogModuleManager: Shutting down and abandoning module WmfMedia (198)
+[2017.03.11-03.51.55:223][273]LogModuleManager: Shutting down and abandoning module MfMedia (196)
+[2017.03.11-03.51.55:223][273]LogModuleManager: Shutting down and abandoning module MediaAssets (194)
+[2017.03.11-03.51.55:223][273]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (192)
+[2017.03.11-03.51.55:223][273]LogModuleManager: Shutting down and abandoning module VREditor (190)
+[2017.03.11-03.51.55:223][273]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (188)
+[2017.03.11-03.51.55:223][273]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (186)
+[2017.03.11-03.51.55:223][273]LogModuleManager: Shutting down and abandoning module FunctionalTesting (184)
+[2017.03.11-03.51.55:223][273]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (182)
+[2017.03.11-03.51.55:223][273]LogModuleManager: Shutting down and abandoning module UMG (180)
+[2017.03.11-03.51.55:223][273]LogModuleManager: Shutting down and abandoning module UMGEditor (179)
+[2017.03.11-03.51.55:223][273]LogModuleManager: Shutting down and abandoning module Sequencer (178)
+[2017.03.11-03.51.55:223][273]LogModuleManager: Shutting down and abandoning module AssetTools (176)
+[2017.03.11-03.51.55:224][273]LogModuleManager: Shutting down and abandoning module MessageLog (175)
+[2017.03.11-03.51.55:224][273]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (174)
+[2017.03.11-03.51.55:224][273]LogModuleManager: Shutting down and abandoning module SlateReflector (168)
+[2017.03.11-03.51.55:224][273]LogModuleManager: Shutting down and abandoning module Slate (166)
+[2017.03.11-03.51.55:224][273]LogModuleManager: Shutting down and abandoning module EditorStyle (164)
+[2017.03.11-03.51.55:231][273]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (162)
+[2017.03.11-03.51.55:231][273]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (160)
+[2017.03.11-03.51.55:231][273]LogModuleManager: Shutting down and abandoning module XAudio2 (158)
+[2017.03.11-03.51.55:231][273]LogModuleManager: Shutting down and abandoning module Networking (156)
+[2017.03.11-03.51.55:231][273]LogModuleManager: Shutting down and abandoning module Core (152)
+[2017.03.11-03.51.55:231][273]LogModuleManager: Shutting down and abandoning module AssetRegistry (150)
+[2017.03.11-03.51.55:335][273]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.03.11-03.51.55:335][273]LogDirectoryWatcher: A directory notification for 'F:/UE4/Project/SmartSpider/Content/' was aborted.
+[2017.03.11-03.51.55:335][273]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.03.11-03.51.55:335][273]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (149)
+[2017.03.11-03.51.55:336][273]LogModuleManager: Shutting down and abandoning module KismetCompiler (146)
+[2017.03.11-03.51.55:336][273]LogModuleManager: Shutting down and abandoning module PhysXFormats (144)
+[2017.03.11-03.51.55:336][273]LogModuleManager: Shutting down and abandoning module MeshUtilities (142)
+[2017.03.11-03.51.55:336][273]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (141)
+[2017.03.11-03.51.55:336][273]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (139)
+[2017.03.11-03.51.55:336][273]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (137)
+[2017.03.11-03.51.55:336][273]LogModuleManager: Shutting down and abandoning module PropertyEditor (135)
+[2017.03.11-03.51.55:336][273]LogModuleManager: Shutting down and abandoning module DerivedDataCache (132)
+[2017.03.11-03.51.55:384][273]LogDerivedDataCache: Shutdown
+[2017.03.11-03.51.55:384][273]LogModuleManager: Shutting down and abandoning module TargetPlatform (130)
+[2017.03.11-03.51.55:384][273]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (129)
+[2017.03.11-03.51.55:384][273]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (127)
+[2017.03.11-03.51.55:384][273]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (125)
+[2017.03.11-03.51.55:384][273]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (123)
+[2017.03.11-03.51.55:384][273]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (121)
+[2017.03.11-03.51.55:384][273]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (119)
+[2017.03.11-03.51.55:384][273]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (117)
+[2017.03.11-03.51.55:384][273]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (115)
+[2017.03.11-03.51.55:384][273]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (113)
+[2017.03.11-03.51.55:384][273]LogModuleManager: Shutting down and abandoning module ImageWrapper (112)
+[2017.03.11-03.51.55:385][273]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (109)
+[2017.03.11-03.51.55:385][273]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (107)
+[2017.03.11-03.51.55:385][273]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (105)
+[2017.03.11-03.51.55:385][273]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (103)
+[2017.03.11-03.51.55:385][273]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (101)
+[2017.03.11-03.51.55:385][273]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (99)
+[2017.03.11-03.51.55:385][273]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (97)
+[2017.03.11-03.51.55:385][273]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (95)
+[2017.03.11-03.51.55:385][273]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (93)
+[2017.03.11-03.51.55:385][273]LogModuleManager: Shutting down and abandoning module Messaging (91)
+[2017.03.11-03.51.55:385][273]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (89)
+[2017.03.11-03.51.55:385][273]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (87)
+[2017.03.11-03.51.55:385][273]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (85)
+[2017.03.11-03.51.55:385][273]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (83)
+[2017.03.11-03.51.55:385][273]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (81)
+[2017.03.11-03.51.55:385][273]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (79)
+[2017.03.11-03.51.55:385][273]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (77)
+[2017.03.11-03.51.55:385][273]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (75)
+[2017.03.11-03.51.55:385][273]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (73)
+[2017.03.11-03.51.55:385][273]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (71)
+[2017.03.11-03.51.55:385][273]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (69)
+[2017.03.11-03.51.55:385][273]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (67)
+[2017.03.11-03.51.55:385][273]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (65)
+[2017.03.11-03.51.55:385][273]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (63)
+[2017.03.11-03.51.55:385][273]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (61)
+[2017.03.11-03.51.55:385][273]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (59)
+[2017.03.11-03.51.55:385][273]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (57)
+[2017.03.11-03.51.55:385][273]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (55)
+[2017.03.11-03.51.55:385][273]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (53)
+[2017.03.11-03.51.55:385][273]LogModuleManager: Shutting down and abandoning module InputCore (50)
+[2017.03.11-03.51.55:385][273]LogModuleManager: Shutting down and abandoning module Settings (48)
+[2017.03.11-03.51.55:385][273]LogModuleManager: Shutting down and abandoning module OculusRift (46)
+[2017.03.11-03.51.55:385][273]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.03.11-03.51.55:385][273]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.03.11-03.51.55:386][273]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.03.11-03.51.55:386][273]LogOnline:Display: Unloading online subsystem: NULL
+[2017.03.11-03.51.55:386][273]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.03.11-03.51.55:386][273]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.03.11-03.51.55:386][273]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.03.11-03.51.55:386][273]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B060003D5-43A9-B110-A8F6-8BBC55286F38%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.0-3299760%2B%2B%2BUE4%2BRelease-4.15&UserID=755a174346d93e28b6c0708b519791f9%7C5b61ffb8693c4d6ea36376029ab06bab%7C679ec84e-6c56-4c24-a827-f97ba2a8896b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.03.11-03.51.55:386][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.51.55:887][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.51.56:388][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.51.56:888][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.51.57:388][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.51.57:889][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.51.58:390][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.51.58:890][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.51.59:390][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.51.59:891][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.00:391][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.00:892][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.01:392][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.01:893][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.02:393][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.02:893][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.03:394][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.03:894][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.04:395][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.04:896][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.05:396][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.05:897][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.06:398][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.06:899][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.07:399][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.07:900][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.08:401][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.08:901][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.09:401][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.09:902][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.10:402][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.10:902][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.11:403][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.11:903][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.12:404][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.12:904][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.13:405][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.13:905][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.14:405][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.14:906][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.15:407][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.15:907][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.16:408][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.16:909][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.17:409][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.17:910][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.18:411][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.18:911][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.19:412][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.19:912][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.20:413][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.20:913][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.21:413][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.21:914][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.22:415][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.22:916][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.23:417][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.23:918][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.24:418][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.24:919][273]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.03.11-03.52.25:430][273]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.03.11-03.52.25:432][273]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.03.11-03.52.25:432][273]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.03.11-03.52.25:432][273]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.03.11-03.52.25:432][273]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.03.11-03.52.25:432][273]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.03.11-03.52.25:434][273]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.03.11-03.52.25:434][273]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.03.11-03.52.25:434][273]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.03.11-03.52.25:434][273]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.03.11-03.52.25:434][273]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.03.11-03.52.25:434][273]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.03.11-03.52.25:434][273]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.03.11-03.52.25:434][273]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.03.11-03.52.25:434][273]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.03.11-03.52.25:434][273]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.03.11-03.52.25:437][273]LogExit: Exiting.
+[2017.03.11-03.52.25:447][273]Log file closed, 03/11/17 11:52:25
